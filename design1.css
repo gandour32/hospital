@@ -1,0 +1,213 @@
+/*start main reulz*/
+body
+{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    height: 2730px;
+}
+/*end main ruelz*/
+/* Start header*/
+.container
+{
+    width: 1100px;
+    margin: auto;
+}
+.header
+{
+    background-color: #00c6a9;
+    overflow: hidden;
+}
+.header .container img
+{
+    float: left;
+    background-color: #eeeeee;
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+.header .nav ul
+{
+    list-style: none;
+    float: right;
+}
+.header .nav ul li
+{
+    float: left;
+    padding: 12px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    font-size: large;
+    font-weight: bold;
+}
+.header .nav ul li:hover{color: black;cursor: pointer;}
+/*end header*/
+/*start my page one*/
+.feature
+{
+    overflow: hidden;
+}
+.feature .image
+{
+    float: right;  
+    width:500px;
+}
+.feature .info
+{  
+    float: left;
+    margin-top: 100px;
+    width:500px;
+}
+.feature .info h1{ text-transform: uppercase}
+.feature .info span{color: #00c6a9;}
+.feature .info h3
+{
+    background-color: #0e131294;
+    font-weight: bold;
+    color: #eeeeee;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+.feature .info h3:hover{background-color: black;cursor: pointer;}
+/*end one page*/
+.booked{overflow: hidden;}
+.booked .part1
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    height: 80px;
+
+}
+.booked span{color: #00c6a9;}
+input[type="text"]
+{
+    width:520px;
+    height: 30px;
+    border-style:solid;
+    border-color: #029c85;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+input[type="number"]
+{
+    width:520px;
+    height: 30px;
+    border-style:solid;
+    border-color: #029c85;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.booked .part2
+{
+    float:right;
+    position:relative;
+    bottom:103px ;
+}
+input[type="date"]
+{
+    width:520px;
+    height: 30px;
+    border-style:solid;
+    border-color: #029c85;
+    border-radius: 5px;
+    text-align: left;
+    text-align: center;
+}
+.hhh
+{
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 150px;
+    height:30px;
+}
+.hhh:hover{background-color: black;cursor: pointer;}
+/*Start this about*/
+.about{overflow: hidden;}
+.about .image2
+{
+    float:left;  
+    width:500px;
+}
+.about .info2
+{   float:right;
+    margin-top: 100px;
+    width:500px;
+}
+.about .info2 h1{ text-transform: uppercase}
+.about .info2 span{color: #00c6a9;}
+.about .info2 h3
+{
+    background-color: #0e131294;
+    font-weight: bold;
+    color: #eeeeee;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+.about .info2 h3:hover{background-color: black;cursor: pointer;}
+/*End this About*/
+/*Start treatment*/
+.container h5
+{
+    color: #00c6a9;
+    text-transform: uppercase;
+}
+.container h5:hover{color: black;cursor: pointer;}
+.treat{overflow: hidden;}
+.treat h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px;
+}
+.treat span{color: #00c6a9;}
+.feat
+{   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    width:22.2222%;
+    height: 230px;
+    margin: 10px;
+}
+hr{width: 800px;color: #00c6a9;margin-bottom: 100px;}
+/*End trreatment*/
+/*Start contact*/
+.feature2
+{
+    overflow: hidden;
+}
+.feature2 .image3
+{
+    float: right;  
+    width:400px;
+    height: auto;
+}
+.feature2 .info3
+{  
+    float: left;
+    margin-top:30px;
+    width:530px;
+}
+.info3 h4
+{
+    background-color: #00c6a9;
+    width: 140px;
+    color: #eeeeee;
+    text-align: center;
+    font-size:x-large ;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.664);
+    margin-left: 190px;
+}
+h4:hover{cursor: pointer;}
+/*End contact*/
+/*Start footer*/
+.foot{overflow: hidden;background-color: #005f3f;}
+.tan {text-align: center;}
+/*End footer*/
